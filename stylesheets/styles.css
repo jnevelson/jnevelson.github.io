@@ -163,6 +163,7 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+  margin-top:10px;
 }
 
 small {
@@ -181,6 +182,10 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
+}
+
+header p.view {
+  margin:0px;
 }
 
 @media print, screen and (max-width: 960px) {
