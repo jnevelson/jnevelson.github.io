@@ -1,54 +1,49 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='chrome=1'>
-    <title>Jonathan Nevelson</title>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='X-UA-Compatible' content='chrome=1'>
+		<title>Jonathan Nevelson</title>
 
-    <link rel='stylesheet' href='stylesheets/styles.css'>
-    <link rel='stylesheet' href='stylesheets/pygment_trac.css'>
-    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
-    <!--[if lt IE 9]>
-    <script src='//html5shiv.googlecode.com/svn/trunk/html5.js'></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class='wrapper'>
-      <header>
-        <h1>Jonathan Nevelson</h1>
+		<link rel='stylesheet' href='stylesheets/styles.css'>
+		<link rel='stylesheet' href='stylesheets/pygment_trac.css'>
+		<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
+	</head>
+	<body>
+		<div class='wrapper'>
+			<header>
+				<h1>Jonathan Nevelson</h1>
 
-        <p class='view'><a href='https://github.com/jnevelson' target='_blank'>GitHub</a></p>
-        <p class='view'><a href='http://stackoverflow.com/users/469717/jonathan' target='_blank'>Stack Overflow</a></p>
-        <p class='view'><a href='http://www.linkedin.com/in/jnevelson' target='_blank'>LinkedIn</a></p>
-        <p class='view'><a href='http://jnevelsonphoto.com' target='_blank'>Photography</a></p>
-        <br>
-        <p class='view'><a id='mail'>Contact me</a></p>
+				<p class='view'><a href='https://github.com/jnevelson' target='_blank'>GitHub</a></p>
+				<p class='view'><a href='http://stackoverflow.com/users/469717/jonathan' target='_blank'>Stack Overflow</a></p>
+				<p class='view'><a href='http://www.linkedin.com/in/jnevelson' target='_blank'>LinkedIn</a></p>
+				<p class='view'><a href='http://jnevelsonphoto.com' target='_blank'>Photography</a></p>
+				<br>
+				<p class='view'><a id='mail'>Contact me</a></p>
 
-      </header>
-      <section>
-        <h3>About</h3>
-        <p>Software engineer by day, photographer by night.</p>
+			</header>
+			<section>
+				<h3>About</h3>
+				<p>Nothing to see here.</p>
+			</section>
+		</div>
+		<script src='http://code.jquery.com/jquery-latest.js'></script>
+		<script src='javascripts/scale.fix.js'></script>
+		<script type='text/javascript'>
+			var gaJsHost = (('https:' == document.location.protocol) ? 'https://ssl.' : 'http://www.');
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 
-        <p>I am a full-stack developer and enjoy developing new products and learning new technologies. I strive for pragmatic perfection in all my work.</p>
-      </section>
-    </div>
-    <script src='http://code.jquery.com/jquery-latest.js'></script>
-    <script src='javascripts/scale.fix.js'></script>
-    <script type='text/javascript'>
-      var gaJsHost = (('https:' == document.location.protocol) ? 'https://ssl.' : 'http://www.');
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			try {
+				var pageTracker = _gat._getTracker('UA-26006578-1');
+				pageTracker._trackPageview();
+			} catch(err) {}
 
-      try {
-        var pageTracker = _gat._getTracker('UA-26006578-1');
-        pageTracker._trackPageview();
-      } catch(err) {}
-
-      var letters = ['m', 'o', 'c', '.', 'l', 'i', 'a', 'm', 'g', '@', 'n', 'o', 's', 'l', 'e', 'v', 'e', 'n', 'j']
-      var email = ''
-      $.each(letters.reverse(), function(index, letter) {
-        email += letter
-      })
-      $('#mail').attr('href', 'mailto:' + email)
-    </script>
-  </body>
+			var letters = ['m', 'o', 'c', '.', 'l', 'i', 'a', 'm', 'g', '@', 'n', 'o', 's', 'l', 'e', 'v', 'e', 'n', 'j'];
+			var email = '';
+			$.each(letters.reverse(), function(index, letter) {
+				email += letter;
+			})
+			$('#mail').attr('href', 'mailto:' + email);
+		</script>
+	</body>
 </html>
